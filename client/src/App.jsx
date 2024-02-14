@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter,Navigate, Routes, Route } from 'react-router-dom';
 import HomePage from 'scense/homePage/HomePage';
 import LoginPage from 'scense/loginPage/LoginPage';
 import ProfilePage from 'scense/profilePage/ProfilePage';
