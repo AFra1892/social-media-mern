@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
         cb(null,"public/assets")
     },
     filename:function(req,file,cb){
-        cd(null,file.originalname)
+        cb(null,file.originalname)
     }
 })
 const upload = multer({storage})
